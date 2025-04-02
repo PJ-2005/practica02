@@ -65,15 +65,15 @@ body {
 .whatsapp-btn {
     background-color: #25D366;
     color: white;
-    padding: 12px 15px; /* Ajusta según el tamaño deseado */
-    border-radius: 50px; /* Bordes más suaves */
+    padding: 12px 15px; 
+    border-radius: 50px; 
     text-align: center;
-    font-size: 45px; /* Ajusta según el tamaño del ícono */
+    font-size: 45px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    vertical-align: middle; /* Evita espacios extras en línea */
-    line-height: 1; /* Evita que el texto genere espacio extra */
+    vertical-align: middle;
+    line-height: 1; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
