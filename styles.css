@@ -88,8 +88,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none; /* Evita decoraciones extra */
-    overflow: hidden; /* Evita cualquier contenido extra fuera del botón */
+    text-decoration: none; 
+    overflow: hidden; 
 }
 
 .whatsapp-btn::after {
