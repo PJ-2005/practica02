@@ -65,15 +65,39 @@ body {
 .whatsapp-btn {
     background-color: #25D366;
     color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
+    padding: 12px 15px; /* Ajusta según el tamaño deseado */
+    border-radius: 50px; /* Bordes más suaves */
     text-align: center;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 45px; /* Ajusta según el tamaño del ícono */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle; /* Evita espacios extras en línea */
+    line-height: 1; /* Evita que el texto genere espacio extra */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
+
+.whatsapp-btn i {
+    display: block;
+    line-height: 1;
+    font-size: inherit;
+}
+
+.whatsapp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Evita decoraciones extra */
+    overflow: hidden; /* Evita cualquier contenido extra fuera del botón */
+}
+
+.whatsapp-btn::after {
+    content: "";
+    display: block;
+    height: 0;
+}
+
 
 .whatsapp-btn:hover {
     background-color: #128C7E;
